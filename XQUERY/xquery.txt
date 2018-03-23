@@ -1,0 +1,2 @@
+- Créer une requêtes XQuery transformant le format XML du fichier exo7.xml en un
+document html - voir exo7.html - (exo7.xqr)

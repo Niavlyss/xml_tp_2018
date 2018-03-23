@@ -1,0 +1,1 @@
+- Proposer un simple stylesheet pour le document xml dans cafe.xml

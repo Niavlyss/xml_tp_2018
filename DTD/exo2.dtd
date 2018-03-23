@@ -1,0 +1,21 @@
+<!-- Seance 2 - Exercice 4 - Recettes  -->
+<!ELEMENT recettes (recette+)>
+<!ELEMENT recette (nom, desc, duree_prep, duree_cuisson,
+                    nb_calories, nb_parts,
+                    niveau_difficulte, ingredients)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT desc (#PCDATA)>
+<!ELEMENT duree_prep (#PCDATA)>
+<!ATTLIST duree_prep unite (h | m) #REQUIRED>
+<!ELEMENT duree_cuisson (#PCDATA)>
+<!ATTLIST duree_cuisson unite (h | m) #REQUIRED>
+<!ELEMENT nb_calories (#PCDATA)>
+<!ELEMENT nb_parts (#PCDATA)>
+<!ELEMENT niveau_difficulte (#PCDATA)>
+<!ELEMENT ingredients (ingredient+)>
+<!ELEMENT ingredient (nom, nb_calories, qte, conditionnement+)>
+<!ELEMENT qte (#PCDATA)>
+<!ATTLIST qte unite (kg|g|l|ml|piece)  #REQUIRED>
+<!ELEMENT conditionnement (#PCDATA)>
+<!ATTLIST conditionnement unite (kg|g|l|ml|piece) #REQUIRED>
+<!ATTLIST conditionnement lieu (placard|cave) "placard">

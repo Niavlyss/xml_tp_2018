@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- Guide Sympa Animation  https://css-tricks.com/guide-svg-animations-smil/ -->
+<svg version="1.1" viewBox="0 0 360 270" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path
+    d="m9.5999 1.4564 1.5501 4.7699 5.015 0.0002-4.057 2.9482 1.55 4.7703-4.0581-2.948-4.0577 2.948 1.5497-4.7703-4.0575-2.9482 5.0154-0.0002z"
+    fill="#f1c40f"
+    stroke="#f39c12"
+    stroke-width=".69755">
+    <!-- Couleur de l'interieur -->
+    <animate attributeName="fill" dur="5000ms" to="#f06d06"  repeatCount="indefinite" />
+    <!-- Bordure -->
+    <animate attributeName="stroke" dur="5000ms" to="#000" repeatCount="indefinite" />
+    <!-- Translation -->
+    <animateTransform attributeName="transform"
+      type="translate"
+      from="0 0"
+      to="150 20"
+      begin="0s"
+      dur="5000ms"
+      repeatCount="indefinite" />
+</path>
+</svg>

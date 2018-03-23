@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" ?>
+<!-- Seance 1 - Exercice 1 - Recettes  -->
+<!-- Objectif - Creation d'un format XML à partir d'un texte libre -->
+<recettes>
+  <recette>
+    <nom>Tartiflette</nom>
+    <desc>......</desc>
+    <duree_prep unite="h">1</duree_prep>
+    <duree_cuisson unite="m">30</duree_cuisson>
+    <nb_calories>1000</nb_calories>
+    <nb_parts>6</nb_parts>
+    <niveau_difficulte>facile</niveau_difficulte>
+    <ingredients>
+      <ingredient>
+        <nom>lait</nom>
+        <nb_calories>100</nb_calories>
+        <qte unite="l">1</qte>
+        <conditionnement unite="kg" lieu="placard">1</conditionnement>
+        <conditionnement unite="g" lieu="cave">500</conditionnement>
+      </ingredient>
+      <ingredient>
+        <nom>oeuf</nom>
+        <nb_calories>200</nb_calories>
+        <qte unite="piece">2</qte>
+        <conditionnement unite="piece" lieu="placard">6</conditionnement>
+        <conditionnement unite="piece" lieu="cave">30</conditionnement>
+      </ingredient>
+    </ingredients>
+  </recette>
+  <!-- Autre recettes -->
+</recettes>

@@ -1,0 +1,6 @@
+- Concevoir une feuille XSLT transformant le document du fichier exo4.xml en un
+tableau html - voir exo4.html - (exo4.xsl)
+- Concevoir une feuille XSLT transformant le document du fichier exo5.xml en un
+document html - voir exo5.html - (exo5.xsl)
+- Concevoir une feuille XSLT transformant le document du fichier exo6.xml en un
+document html - voir exo6.html - (exo6.xsl)

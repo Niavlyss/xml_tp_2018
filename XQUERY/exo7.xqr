@@ -1,0 +1,57 @@
+declare function local:get-value($p as element()?) as xs:double
+{
+  if($p) then
+    $p/number()
+  else
+    0
+};
+
+declare function local:dash($value as xs:double) as xs:string
+{
+  if($value) then
+    xs:string($value)
+  else
+    xs:string("-")
+};
+
+<html>
+<table border="1" style="border-collapse: collapse;">
+  <tbody style="font-size:12px">
+    <tr>
+      <th style="text-align:left">N</th>
+      <th style="text-align:left">Pays</th>
+      <th style="text-align:left">Arabica</th>
+      <th style="text-align:left">Robusta</th>
+      <th style="text-align:left">Export</th>
+      <th style="text-align:left">Total</th>
+      <th style="text-align:left">Reste</th>
+    </tr>
+  </tbody>
+  {
+    for $pays at $position in //pays
+    let $name := $pays/@name/string(),
+        $export :=  local:get-value($pays/export),
+        $arabica := local:get-value($pays/production[@type='arabica']),
+        $robusta := local:get-value($pays/production[@type='robusta']),
+        $total := $arabica + $robusta,
+        $reste := $total - $export,
+        $style :=
+        if ($position mod 2 = 0)
+          then
+            "background-color:red; color:white;"
+          else
+            ""
+    order by $export
+    return
+      <tr style="{$style}">
+        <td>{$position}</td>
+        <td>{$name}</td>
+        <td>{local:dash($arabica)}</td>
+        <td>{local:dash($robusta)}</td>
+        <td>{local:dash($export)}</td>
+        <td>{$total}</td>
+        <td>{$reste}</td>
+      </tr>
+  }
+</table>
+</html>

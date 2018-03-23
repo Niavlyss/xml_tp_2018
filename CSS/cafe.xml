@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="cafe.css" ?>  
+<cafe>
+    <pays name='bresil'>
+      <production type='arabica'>38.8</production>
+      <production type='robusta'>12.4</production>
+      <export>30.43</export>
+    </pays>
+    <pays name='vietnam'>
+      <production type='arabica'>1.3</production>
+      <production type='robusta'>28.6</production>
+      <export>28.15</export>
+    </pays>
+    <pays name='indonesie'>
+      <production type='arabica'>1.3</production>
+      <production type='robusta'>9.6</production>
+      <export>8.3</export>
+    </pays>
+    <pays name='colombie'>
+      <production type='arabica'>14.7</production>
+      <export>13.6</export>
+    </pays>
+    <pays name='ethiopie'>
+      <production type='arabica'>6.5</production>
+      <export>3.3</export>
+    </pays>
+    <pays name='inde'>
+      <production type='arabica'>1.4</production>
+      <production type='robusta'>4.1</production>
+      <export>5.5</export>
+    </pays>
+    <pays name='honduras'>
+      <production type='arabica'>7.5</production>
+      <export>7.1</export>
+    </pays>
+    <pays name='perou'>
+      <production type='arabica'>3.8</production>
+      <export>3.6</export>
+    </pays>
+    <pays name='mexique'>
+      <production type='arabica'>3.6</production>
+    </pays>
+    <pays name='guatemala'>
+      <production type='arabica'>3.2</production>
+      <export>3.1</export>
+    </pays>
+</cafe>

@@ -1,0 +1,4 @@
+pays { display: block; }
+pays > production[type='arabica'] {color: red;}
+pays > production[type='robusta'] {color: green;}
+pays > production[type='robusta'] {color: blue;}

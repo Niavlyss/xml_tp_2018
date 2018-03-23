@@ -1,0 +1,1 @@
+- Proposer une DTD pour le format XML du fichier exo2.xml (exo2.dtd)

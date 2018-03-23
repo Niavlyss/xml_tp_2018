@@ -1,0 +1,4 @@
+- Regarder http://www-lisic.univ-littoral.fr/~mazyad/courses/xml/css.php
+- Dessiner une étoile à 5 branche et ajouter de l'animation
+  -- Animation utilisant CSS @keyframes (etoile.html)
+  -- Animation utilisant SVG element animate (etoile.xml)

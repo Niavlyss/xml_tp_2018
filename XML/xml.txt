@@ -1,0 +1,13 @@
+Il vous est demandé de réaliser un format XML permettant de stocker des
+recettes de cuisine et gérant également les stocks des ingrédients que vous
+possédez. Chaque recette de cuisine a un nom, une description, la durée de
+préparation et la durée de cuisson, le nombre de calories par personne, le
+nombre de parts et le niveau de difficulté : difficile, moyen ou facile. Pour
+chaque recette vous voulez savoir quels sont les ingrédients nécessaires et la
+quantité associée à chaque ingrédient. Pour chaque ingrédient vous avez son nom
+et le nombre de calories pour 100 grammes de cet ingrédient. Un même ingrédient
+peut avoir plusieurs conditionnements, par exemple, l'ingrédient farine peut
+être stocké sous forme d'un paquet de 1 kg ou de 500 g. Pour gérer les stocks
+des ingrédients, le lieu de stockage des produits est mémorisé.
+
+- Proposer un format XML (exo1.xml)
